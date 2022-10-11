@@ -1,12 +1,13 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-html,
 body {
+    height: 100vh;
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
 }
 
 a {
@@ -26,6 +27,10 @@ a {
     color: white;
     background: black;
   }
+}
+
+#__next {
+    height: 100%
 }`;
 
 export default GlobalStyles;

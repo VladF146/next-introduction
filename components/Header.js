@@ -5,6 +5,8 @@ export default function Header() {
 }
 
 const StyledHeader = styled.header`
+  padding: 25px;
+  text-align: center;
   background-color: black;
   color: white;
 `;
